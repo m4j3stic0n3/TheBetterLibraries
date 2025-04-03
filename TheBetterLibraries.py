@@ -11,10 +11,10 @@ from datetime import datetime, timedelta
 # ------------------------------------------------
 # 1. FMP & Gemini Configuration
 # ------------------------------------------------
-FMP_API_KEY = "HUV6zWj8TL0ZMfvkVxe6oQKEkv9N1HxY" 
+FMP_API_KEY = "" 
 
 # For Gemini
-GOOGLE_API_KEY = "AIzaSyCyZ9Rg4tNyDAuHo2BackIESHoUqMgsQIw" 
+GOOGLE_API_KEY = "" 
 genai.configure(api_key=GOOGLE_API_KEY)
 MODEL_NAME = 'gemini-2.0-flash'
 gen_model = genai.GenerativeModel(MODEL_NAME)
